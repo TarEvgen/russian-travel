@@ -1,0 +1,12 @@
+.intro {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 690px;
+  margin: 0;
+  margin-left: 148px;
+ /* margin-right: 442px;*/
+  margin-top: 92px;
+  
+}
