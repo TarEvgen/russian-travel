@@ -1,0 +1,6 @@
+.place {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 460px 480px ;
+  grid-template-rows: 452px 460px ;
+}
