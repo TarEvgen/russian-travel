@@ -9,13 +9,8 @@
   color: #fff;
 }
 
-
 @media screen and (max-width: 680px) {
-
-    .footer__author {
-
-        text-align: left;
-        
-      }
-    
+  .footer__author {
+    text-align: left;
+  } 
 }

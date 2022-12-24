@@ -12,19 +12,14 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-
-  }
-    
+  }    
 }
 
 @media screen and (max-width: 720px) {
-    .place__title {
-      font-size: 32px;
-      line-height: 35px;
-      justify-self: start;
-      margin-left: 16px;
-      
-  
-    }
-      
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    justify-self: start;
+    margin-left: 16px;
   }
+}

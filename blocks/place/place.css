@@ -22,16 +22,16 @@
 }
 
 @media screen and (max-width: 990px) {
-    .place {
-      grid-template-columns: minmax(250px, 340px) minmax(250px, 750px);
-      column-gap: 28px;
-    }
+  .place {
+    grid-template-columns: minmax(250px, 340px) minmax(250px, 750px);
+    column-gap: 28px;
   }
+}
       
-  @media screen and (max-width: 720px) {
-    .place {
-      grid-template-columns: minmax(250px, 750px);
-     
-    }
+@media screen and (max-width: 720px) {
+  .place {
+    grid-template-columns: minmax(250px, 750px);
+    column-gap: 32px;
   }
+}
 

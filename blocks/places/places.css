@@ -9,18 +9,24 @@
 @media screen and (max-width: 1200px) {
   .places {
     max-width: calc(100% - 96px);   
-}
+  }
 }
 
 @media screen and (max-width: 990px) {
-    .places {
-      max-width: calc(100% - 48px);   
+  .places {
+    max-width: calc(100% - 48px); 
+    margin-top: 88px;  
   }
-  }
+}
 
-  @media screen and (max-width: 720px) {
-    .places {
-      max-width: 100%;   
+@media screen and (max-width: 720px) {
+  .places {
+    max-width: 100%;   
   }
-  }
+}
 
+@media screen and (max-width: 460px) {
+  .places {
+    margin-top: 64px;
+  }  
+}
