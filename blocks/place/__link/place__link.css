@@ -6,6 +6,9 @@
   line-height: 22px;
   opacity: 1;
   transition: opacity 0.7s;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  text-decoration: none;
 }
 
 .place__link:hover {
