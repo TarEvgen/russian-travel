@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -12,21 +11,21 @@
   max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .header {
-   max-width: 928px;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-   max-width: 720px;
+   max-width: calc(100% - 48px);
   }
 }
   
 @media screen and (max-width: 320px) {
   .header {
     padding-top: 16px;
-    max-width: 288px;
+    max-width: calc(100% - 32px);
   }
 }
